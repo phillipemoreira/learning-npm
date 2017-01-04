@@ -1,0 +1,22 @@
+{
+  "name": "consuming-test",
+  "version": "1.0.0",
+  "description": "Simple consuming test of a published npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipemoreira/learning-npm.git"
+  },
+  "author": "Phillipe Moreira <phillipealexmoreira@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phillipemoreira/learning-npm/issues"
+  },
+  "homepage": "https://github.com/phillipemoreira/learning-npm#readme",
+  "dependencies": {
+    "@phillipemoreira/first-npm-package": "^1.0.1"
+  }
+}
